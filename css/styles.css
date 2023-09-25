@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand';
+}
+
+header {
+    background-color: #164582;
+    color: #fff;
+    padding: 10px;
+    display: grid;
+    place-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #eebd12; 
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header p {
+    font-size: 14px;
+}
+
+
+header nav a {
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header img{
+    width: 43px;
+    height: 40px;
+}
+
+main{
+    margin-left: 25%;
+    margin-right: 25%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+main nav a {
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+main img{
+    border-radius: 4px;
+}
+
+#intro img{
+    height: 200px;
+    width: 200px;
+}
+
+.custom-button {
+    background-color: #164582;
+    color: #fff; 
+    border: none; 
+    padding: 12px 24px; 
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.custom-button:hover {
+    background-color: #164582;
+}
+
+.footer {
+    background-color: #164582;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 80%;
+    height: 200px;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.card-content h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.card-content p {
+    font-size: 14px;
+    color: #666;
+}
+
+.card-content a {
+    display: block;
+    text-align: right;
+    color: #3498db;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+section img:first-of-type{
+    width: 200px;
+}
+
+fieldset{
+    border-radius: 4px;
+}
+
+/* Estilos para las barras */
+.bar-container {
+    width: 100%;
+    max-width: 400px; /* Ancho máximo del diagrama de barras */
+    margin: 0 auto; /* Centrar el diagrama de barras en la página */
+}
+
+.bar {
+    height: 30px;
+    margin-bottom: 10px; /* Espacio entre las barras */
+    background-color: red; /* Color de fondo de las barras (azul en este caso) */
+    color: #fff; /* Color del texto en las barras */
+    text-align: right; /* Alineación del texto a la derecha */
+    padding-right: 10px; /* Espacio entre el texto y el extremo derecho de la barra */
+    border-radius: 4px;
+}

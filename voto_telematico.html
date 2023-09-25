@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>23J: Elecciones Generales 2023</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.JPG" alt="Logo de las Elecciones Generales">
+            <h3><a href="index.html">23J: Elecciones Generales 2023</a></h3>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="candidaturas.html">Candidaturas</a></li>
+                <li><a href="modalidades_voto.html">Modalidades de voto</a></li>
+                <li><a href="voto_telematico.html">Voto telematico</a></li>
+                <li><a href="resultados.html">Resultados</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Voto telemático</h1>
+        <p>El voto telemático estará disponible del dia 17 de Julio al 20 de Julio. Para poder votar con este nuevo método, deberá introducir su DNI y seleccionar a la candidatura que quieren votar y enviar el voto.</p>
+        <p>SI VOTAS TELEMÁTICAMENTE, NO PODRAS VOTAR DE MANERA PRESENCIAL</p>
+        <form id="voto_telematico">
+            <h3>DNI</h3>
+            <fieldset id="dni_field">
+                <label for="dni"></label><br>
+                <input type="text" id="dni" name="dni" minlength="9" maxlength="9" required>
+            </fieldset>
+            <h3>Selección de candidatura</h3>
+            <fieldset id="candidatos">
+                <ul id="opciones-candidatos">
+                </ul>
+                <script src="js/voto_telematico.js"></script>
+            </fieldset><br/>
+            <input class="custom-button" type="submit" value="Votar">
+        </form><br/>
+    </main>
+    <footer class="footer">
+        <p>&copy; 23J: Elecciones Generales 2023 | Alberto Romero Cabezas.</p>
+    </footer>
+</body>
+</html>
